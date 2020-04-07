@@ -14,77 +14,9 @@ GCAL = discovery.build('calendar', 'v3', http=creds.authorize(Http()))
 
 """----------------------------------------------------------- List of emails ----------------------------------------- """
 
-
-list_email = ['lLindauer@salesforce.com','Austin.anderson@salesforce.com','dRaynal@salesforce.com', 'dsonders@salesforce.com',
-'hUnruh@salesforce.com', 'JWelton@salesforce.com', 'Laura.Chandler@salesforce.com', 'MarkTaylor@salesforce.com', 'rStefanussen@salesforce.com',
-'tdhillon@salesforce.com', 'wSpringer@salesforce.com', 'YiLeng.Lee@salesforce.com', 'aColeman@salesforce.com', 'Bailey.Jones@salesforce.com',
-'bjang@salesforce.com', 'eGlenewinkel@salesforce.com', 'jRheinfrank@salesforce.com', 'lHydePage@salesforce.com', 'mEscobosa@salesforce.com',
-'sHutter@salesforce.com', 'karenchan@salesforce.com', 'Joy.zhu@salesforce.com', 'Bwinterson@salesforce.com', 'sbhimireddy@salesforce.com', 'cweber@salesforce.com',
-'lfarah@salesforce.com'] 
+list_email = [] 
 
 
-"""------------------
-list_email = [
-'eveneziano@salesforce.com',
-'esigman@salesforce.com',
-'spatino@salesforce.com',
-'smenton@salesforce.com',
-'sharlene.king@salesforce.com',
-'dmantle@salesforce.com',
-'abehm@salesforce.com',
-'ahintzman@salesforce.com',
-'shrinidhi.amarnath@salesforce.com',
-'sarah.simon@salesforce.com',
-'jonathan.ferrer@salesforce.com',
-'ahamo@salesforce.com',
-'mprescott@salesforce.com',
-'ysarason@salesforce.com',
-'hfieschko@salesforce.com',
-'pmerai@salesforce.com',
-'shailesh.patel@salesforce.com',
-'mcurry@salesforce.com',
-'james.russell@salesforce.com',
-'jensen.warner@salesforce.com',
-'vchou@salesforce.com',
-'vcastillo@salesforce.com',
-'charliesmith@salesforce.com',
-'pmacklin@salesforce.com',
-'cstelzer@salesforce.com',
-'madison.zeller@salesforce.com',
-'kschtevie@salesforce.com',
-'kellie.munoz@salesforce.com',
-'bwashington@salesforce.com',
-'kvaghani@salesforce.com',
-'gina.reynolds@salesforce.com',
-'esandford@salesforce.com',
-'adang@salesforce.com',
-'jgrochowski@salesforce.com',
-'bhastings@salesforce.com',
-'tflynn@salesforce.com',
-'kdececca@salesforce.com',
-'steph.shapiro@salesforce.com',
-'dvandenbranden@salesforce.com',
-'maggee.bond@salesforce.com',
-'andrew.vitale@salesforce.com',
-'oozner@salesforce.com',
-'aburghard@salesforce.com',
-'klerash@salesforce.com',
-'acruzzavala@salesforce.com',
-'avsar.modi@salesforce.com',
-'seth'
-'tracey.rubinoff@salesforce.com',
-'sternovits@salesforce.com',
-'jtantaro@salesforce.com',
-'lauren.rosen@salesforce.com',
-'acheema@salesforce.com',
-'csulkowski@salesforce.com',
-'csulkowski@salesforce.com',
-
-] """
-
-
-
-"""-----------------------------------------------------------------------------------------------------------"""
 
 
 temp_email = list_email 
